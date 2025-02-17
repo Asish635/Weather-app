@@ -114,7 +114,7 @@
         }
 
         function showMap(lat, lon) {
-            let mapUrl = https://www.openstreetmap.org/export/embed.html?bbox=${lon-0.05},${lat-0.05},${lon+0.05},${lat+0.05}&layer=mapnik&marker=${lat},${lon};
+            let mapUrl = "https://www.openstreetmap.org/export/embed.html?bbox=${lon-0.05},${lat-0.05},${lon+0.05},${lat+0.05}&layer=mapnik&marker=${lat},${lon}";
             document.getElementById("map").src = mapUrl;
         }
     </script>
